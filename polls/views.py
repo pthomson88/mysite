@@ -7,6 +7,7 @@ from django.utils import timezone
 
 from . models import Choice, Question
 
+#a test comment to check git
 # Create your views here.
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
